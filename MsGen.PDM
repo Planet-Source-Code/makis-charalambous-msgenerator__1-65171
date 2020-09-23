@@ -1,0 +1,111 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Sources\MsGenerator\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+E:\Sources\mscontrolsa\msControlsa.ocx=
+D:\DBITech\CorpTools\Components\ctDial.ocx=
+D:\DBITech\CorpTools\Components\ctRadio.ocx=
+D:\WINDOWS\system32\dx7vb.dll=
+D:\DBITech\CorpTools\Components\ctGrid.ocx=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\Sources\MsGenerator\MsGen.exe=Yes
+D:\WINDOWS\system32\MSVBVM60.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\WINDOWS\system32\dx7vb.dll=Yes
+D:\DBITech\CorpTools\Components\ctRadio.ocx=Yes
+D:\DBITech\CorpTools\Components\ctDial.ocx=Yes
+D:\WINDOWS\system32\PICCLP32.OCX=Yes
+E:\Sources\mscontrolsa\msControlsa.ocx=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\WINDOWS\system32\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\DBITech\CorpTools\Components\ctGrid.ocx=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\Sources\MsGenerator\MsGen.exe=$(AppPath)
+D:\WINDOWS\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\WINDOWS\system32\dx7vb.dll=$(WinSysPath)
+D:\DBITech\CorpTools\Components\ctRadio.ocx=$(WinSysPath)
+D:\DBITech\CorpTools\Components\ctDial.ocx=$(WinSysPath)
+D:\WINDOWS\system32\PICCLP32.OCX=$(WinSysPath)
+D:\Program Files\Infragistics\Data Widgets\ssdw3bo.ocx=$(WinSysPath)
+D:\WINDOWS\system32\mfc42.dll=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Infragistics\Data Widgets\ssmedt32.dll=$(WinSysPath)
+D:\Program Files\Infragistics\Data Widgets\ssprn32.dll=$(WinSysPath)
+D:\Program Files\Infragistics\Data Widgets\ssr2c.dll=$(WinSysPath)
+E:\Sources\mscontrolsa\msControlsa.ocx=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\DBITech\CorpTools\Components\ctGrid.ocx=$(WinSysPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\Sources\MsGenerator\MsGen.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=MsGen
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Sources\MsGenerator\Package
+ProjectFolder=E:\Sources\MsGenerator
+ServerSideCab=
+File1=E:\Sources\MsGenerator\Package\setup.exe
+File2=E:\Sources\MsGenerator\Package\Setup.Lst
+File3=E:\Sources\MsGenerator\Package\MsGen.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=MsGen
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|MsGen]
+Icon1=MsGen.exe
+Title1=MsGen
+StartIn1=$(AppPath)
+Key1=Icon1
